@@ -43,3 +43,18 @@ active_servers = [
         "role": "storage"
     }
 ]
+
+def log_counter():
+    error = 0
+    warn = 0
+    info = 0
+    for i in range(len(server_log)):
+        if '[ERROR]' in server_log[i]:
+            error += 1
+        elif '[WARN]' in server_log[i]:
+            warn += 1
+        elif '[INFO]' in server_log[i]:
+            info += 1
+    print(f'ditemukan {error} ERROR, {warn} WARN, dan {info} INFO')
+
+log_counter()
