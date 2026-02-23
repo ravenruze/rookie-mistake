@@ -1,3 +1,5 @@
+#script v1.0
+
 server_log = [
     "2026-02-21T10:00:01.123Z [INFO] systemd: Started Engine-X Web Server.",
     "2026-02-21T10:05:22.456Z [ERROR] auth-service: Invalid password for user 'ravenruze' from 192.168.1.45",
