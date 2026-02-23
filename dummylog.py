@@ -60,6 +60,3 @@ def log_counter():
     print(f'ditemukan {error} ERROR, {warn} WARN, dan {info} INFO')
 
 log_counter()
-
-def maybe():
-    print('ini fungsi bisa iya atau bisa tidak')

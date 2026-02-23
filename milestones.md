@@ -56,3 +56,15 @@ buat balikin commit yang gak sengaja kebuang pake git reset --hard
 nanti dia bakal nyiptain commit baru, tapi commit commit sebelumnya untouched. 
 
 
+
+23/02/26
+
+- file ketinggalan, kalo mau pake amend, harus masuk staging area dulu, harus hijau
+
+- git checkout <somehash dari reflog> itu basically kamu melayang di masa lalu, ada HEAD yang melayang, kalo kamu checkout lagi, terus create branch baru git branch <new branch name> itu kayak ibarat kamu nancepin bendera ke tempat sampah itu, dan jadi deh, dia gak melayang lagi, harus di note ini itu bukan ngedit, tapi 'teleportasi' jadi git gak akan teriak modified. 
+
+- git revert itu bikin commit baru, jadi kamu harus tetap push ulang. dia nyiptain commit tersendiri
+
+- git pull itu git fetch + git merge 
+
+
