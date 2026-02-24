@@ -11,7 +11,7 @@
 
 \- git cherry-pick <hash> 
 
-ketika lu udah commit tapi salah branch, pake cherry-pick, caranya ambil hash dari commit lu yg salah branch, checkout ke branch sebenernya, terus git cherry-pick <hash>, balik ke branch yang salah, terus hard reset. INGET HARD RESET KALO BELUM DI PUSH SAJA
+ketika lu udah commit tapi salah branch, pake cherry-pick, caranya ambil hash dari commit lu yg salah branch, checkout ke branch sebenernya, terus git cherry-pick <hash>, balik ke branch yang salah, terus hard reset. INGET HARD RESET KALO BELUM DI PUSH SAJA.
 
 
 -git reset --soft <hash>
