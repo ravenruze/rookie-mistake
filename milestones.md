@@ -68,3 +68,7 @@ nanti dia bakal nyiptain commit baru, tapi commit commit sebelumnya untouched.
 
 - git pull itu git fetch + git merge 
 
+
+25/02/26
+
+- yang penting commit anjay, aku sebenernya sudah belajar stash, tapi belum latihan. Stash itu kayak commit, tapi dia gak bikin branch baru, dan dia gak ngaruh ke branches, bisa dibawa ke branches mana aja, neat.
