@@ -59,4 +59,16 @@ def log_counter():
             info += 1
     print(f'ditemukan {error} ERROR, {warn} WARN, dan {info} INFO')
 
+def server_search():
+    askServer = input()
+    ketemu = False
+        for i in active_servers:
+            if i["name"] == askServer:
+            print(i["status"])
+            ketemu = True
+            break
+    if not ketemu: #inget, if bakal jalan kalau True, kalau False, pesan server tidak terdaftar tidak akan dicetak
+        print("server tidak terdaftar") 
+
 log_counter()
+server_search()
