@@ -84,3 +84,9 @@ buat ngehapus setelah selesai apply
 
 - git stash clear
 kalau mau ngehapus semua stashes. 
+
+- git checkout <someflag dari reflog> itu bisa walaupun kita gak reset apa apa, misal kita commit B dan C, dan pengen ke commit A lagi, walaupun kita gak ngapus commit B dan C, kita bisa balik ke commit A, there di detached HEAD, bisa run code, tes bug, dll, kalau mau balik masa depan, tinggal checkout main.  Js sayin. even though i feel like its clear.
+
+- git checkout bisa dikasih specifier,
+cth : git checkout <hash dari reflog> --milestones.md
+artinya lu masuk hash itu, tapi maennya di area milestones.md aja (hash tanpa specifier itu 1 working dir) jadi kalau lu akhirnya bikin  branch baru buat ngambil historynya, nanti milestones.md jadi perubahan yang harus di commit, beda kalau tanpa specifier, karena literally 1 working dir, tidak ad perubahan yang harus di commit commit.
