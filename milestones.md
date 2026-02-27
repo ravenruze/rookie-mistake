@@ -90,3 +90,9 @@ kalau mau ngehapus semua stashes.
 - git checkout bisa dikasih specifier,
 cth : git checkout <hash dari reflog> --milestones.md
 artinya lu masuk hash itu, tapi maennya di area milestones.md aja (hash tanpa specifier itu 1 working dir) jadi kalau lu akhirnya bikin  branch baru buat ngambil historynya, nanti milestones.md jadi perubahan yang harus di commit, beda kalau tanpa specifier, karena literally 1 working dir, tidak ad perubahan yang harus di commit commit.
+
+
+27/02/26
+- install diffmerge buat tool diff dan merge
+- sudah baca chapter 1 Devops with Docker
+- sudah install docker
