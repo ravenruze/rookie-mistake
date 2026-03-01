@@ -96,3 +96,30 @@ artinya lu masuk hash itu, tapi maennya di area milestones.md aja (hash tanpa sp
 - install diffmerge buat tool diff dan merge
 - sudah baca chapter 1 Devops with Docker
 - sudah install docker
+- sudah namatin chapter 1 dan udah ngerjain exercise 1.1 dan 1.2
+
+jadi summarynya:
+
+- you could run stuff in containers
+- anything, kayak vm, tapi bedanya vm itu ngevirtualisasi hardware, kalo containers, itu cuman sharing 'otak'
+- you could put dependencies there as well, atau seperti requirements yang dibutuhkan untuk jalanin sebuah aplikasinya
+- images itu seperti 'resep' untuk bikin 'meal' alias container
+- untuk bikin images, resepnya dari dockerfile yang kita buat
+
+- docker container run == docker run <some image>
+dia download image kalau belum ada, dan sekaligus run
+- docker run -d <some image>
+buat run di belakang (background) gak ganggu terminal 
+- docker container ls == docker ps
+nge list running containers
+- docker ps -a 
+nge list semua containers, yang masih running ataupun yang sudah exited
+- docker image ls == docker images
+nge list images 
+- docker rm <some container id> buat hapus
+- docker rmi <SOME IMAGE NAME, NOT ID FOR SOME REASON> buat hapus image
+
+gak bisa kita rmi kalau belum rm, karena harus hapus container dulu sebelum hapus image
+- docker container stop = docker stop <some container id> 
+penting buat stop running container, kareana gak bakal bisa dihapus sebelum stop
+
