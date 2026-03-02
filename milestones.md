@@ -123,3 +123,10 @@ gak bisa kita rmi kalau belum rm, karena harus hapus container dulu sebelum hapu
 - docker container stop = docker stop <some container id> 
 penting buat stop running container, kareana gak bakal bisa dihapus sebelum stop
 
+02/03/26
+
+demot dikittt baru belajar dikit
+but ive learned
+- cara run container in the background with -d flag
+- cara pake -i dan -t digabung jadi -it buat interaksi sama said container
+- docker logs -f <container name> buat liat outputnya, kan tadi kita pake -d, jadi kalau mau liat outputnya pake logs -f
