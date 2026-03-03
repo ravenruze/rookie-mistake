@@ -130,3 +130,12 @@ but ive learned
 - cara run container in the background with -d flag
 - cara pake -i dan -t digabung jadi -it buat interaksi sama said container
 - docker logs -f <container name> buat liat outputnya, kan tadi kita pake -d, jadi kalau mau liat outputnya pake logs -f
+- -f artinya follow, jadi real time gitu, kek live stream, tapi kalau misal docker logs <some container name> doang, itu bakal nampilin output masa lalu sampe detik kita pencet enter, basically not real time. 
+- container yang lagi jalan itu bisa dibuka di tab terminal baru (looks pretty obvious that they run the background and terminal is a kesatuan but it just clicked to me so i think thats pretty cool)
+
+- caranya docker attach <some container name>
+- you could stop the logs -f pake ctrl c biasa (BEDA DENGAN DOCKER STOP, docker stop itu matiin mesin fully, kalau ctrl c itu cuman kayak berenti nontonin output aja tapi container masih jalan di background)
+- start liat lagi pake docker start <some container name>
+
+03/03/26
+demot yang penting push
