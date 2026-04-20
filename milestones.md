@@ -139,3 +139,8 @@ but ive learned
 
 03/03/26
 demot yang penting push
+
+20/04/24
+halo dunia, saya kembali
+achievement today: baca review hehe
+
