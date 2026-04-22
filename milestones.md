@@ -144,3 +144,7 @@ demot yang penting push
 halo dunia, saya kembali
 achievement today: baca review hehe
 
+22/04/2026
+cara ganti nama master branch
+git branch -m master main
+
